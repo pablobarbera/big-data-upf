@@ -2,7 +2,9 @@
 title: "RStudio and RMarkdown"
 author: "Pablo Barbera"
 date: "June 26, 2017"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 Welcome to the summer school!
@@ -49,12 +51,13 @@ We will be exploring R through R Markdown over the next few modules. For more de
 
 If you are running this script in your own computer, you will have to run the chunk below in order to install all the R packages we will use throughout the summer school. (Note that this may take a while!)
 
-```{r}
+```{r eval=FALSE}
 doInstall <- TRUE  # Change to FALSE if you don't want packages installed.
 toInstall <- c("ROAuth", "streamR", "ggplot2", "stringr",
 	"maps", "Rfacebook", "topicmodels", "devtools", "quanteda",
-	"igraph", "rvest", "httr")
-devtools::install_github("netdem-usc/netdemR")
+	"igraph", "rvest", "httr", "yaml", "reshape")
+if (doInstall) install.packages(toInstall)
+if (doInstall) devtools::install_github("netdem-usc/netdemR")
 
 ```
 

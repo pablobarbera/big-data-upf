@@ -125,8 +125,8 @@ nyt_count <- function(q, date1, date2){
 And let's see if this does the trick...
 
 ```{r}
-counts <- nyt_years_count(q="inequality", yearinit=1950, yearend=2012)
-plot(1950:2012, counts, type="l", main="Mentions of inequality on the NYT, by year",
+counts <- nyt_years_count(q="inequality", yearinit=1980, yearend=2012)
+plot(1980:2012, counts, type="l", main="Mentions of inequality on the NYT, by year",
      xlab="Year", ylab="Article count")
 ```
 
@@ -155,7 +155,7 @@ nyt_dates_count <- function(q, init, end, by){
 
 And now we can count articles at the month level...
 ```{r}
-counts <- nyt_dates_count(q="trump", init = as.Date("2014/01/01"), end = as.Date("2017/05/30"), by="month")
+counts <- nyt_dates_count(q="trump", init = as.Date("2015/01/01"), end = as.Date("2017/05/30"), by="month")
 plot(counts$date, counts$count, type="l", main="Mentions of 'Trump' in the NYT, by month",
      xlab="Month", ylab="Article count")
 ```
