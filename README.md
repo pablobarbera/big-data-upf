@@ -17,7 +17,7 @@ Citizens across the globe spend an increasing proportion of their daily lives on
 
 ## Setup and Preparation
 
-There are two ways you can follow the course and run the code contained in this GitHub repository. The recommended method is to connect to the provided RStudio server where all the R packages have already been installed, and all the R code is available. To access the server, write a blank email to pbarbera@usc.edu and I will reply with the information you need to access it.
+There are two ways you can follow the course and run the code contained in this GitHub repository. The recommended method is to connect to the provided RStudio server where all the R packages have already been installed, and all the R code is available. To access the server, visit bigdata.pablobarbera.com and log in with the information provided during class.
 
 Alternatively, you can run the code in your own laptop. You will need [R](https://cran.r-project.org/) and [RStudio](https://www.rstudio.com/) installed. Given the number of attendants, I will not be able to provide support during the course, but feel free to email me later if you have any issue.
 
