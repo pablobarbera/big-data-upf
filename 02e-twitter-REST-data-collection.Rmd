@@ -12,15 +12,12 @@ output: html_document
 It is possible to download recent tweets, but only up those less than 7 days old, and in some cases not all of them. We will use the `netdemR` package for this (and the other functions that scrape Twitter's REST API).
 
 ```{r}
-#install.packages("devtools")
-library(devtools)
-#install_github("netdem-USC/netdemR")
 library(netdemR)
 library(streamR)
 
 searchTweets(q=c("graham", "mccain"), 
   filename="senator-tweets.json",
-  n=1000, until="2017-01-28", 
+  n=1000, until="2017-06-20", 
   oauth_folder="credentials")
 
 tweets <- parseTweets("senator-tweets.json")
