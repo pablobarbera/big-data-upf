@@ -1,0 +1,56 @@
+---
+title: "Application: Analyzing the structure of online protest networks"
+author: Pablo Barbera
+date: "June 27, 2017"
+output: html_document
+---
+
+#### Application
+
+As an exercise, now we'll analyze a network of retweets. This data comes from our PLOS ONE paper, and it consists on the retweets of tweets mentioning "minimum wage" in the first 20 days of February 2014.
+
+Just like earlier, we'll start reading the data in R:
+
+```{r, echo=FALSE, message=FALSE}
+library(igraph)
+edges <- read.csv("data/mwage-edges.csv", stringsAsFactors=F)
+nodes <- read.csv("data/mwage-nodes.csv", stringsAsFactors=FALSE)
+g <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+V(g)$name <- V(g)$screen_name # we add screen names as labels to make them more informative
+```
+
+Note that the network here is directed!
+
+Now let's try to answer some basic questions:
+
+Who were the users that retweeted the most? And the users that were most retweeted?
+
+```{r}
+tail(sort(degree(g, mode="in")))
+tail(sort(degree(g, mode="out")))
+```
+
+Who are the users with the highest levels of centrality?
+
+```{r}
+tail(sort(closeness(g, normalized=TRUE)))
+tail(sort(betweenness(g)))
+```
+
+How many components are there in this network? Do you think it makes sense to keep the giant component?
+
+```{r}
+components(g)
+g <- decompose(g)[[1]]
+```
+
+Now run a community detection algorithm. Note that this may take a while! How many communities do you find? You can then run `head(table(membership(comm)))` to see how many users are in the first 6 communities. What does it tell you?
+
+```{r}
+comm <- cluster_infomap(g)
+```
+
+
+
+
+
