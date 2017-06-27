@@ -1,0 +1,49 @@
+---
+title: "Supervised machine learning"
+author: Pablo Barbera
+date: June 28, 2017
+output: html_document
+---
+
+### Exercise: Supervised machine learning
+
+Now let's work with a dataset that contains all the tweets sent by Donald Trump, Ted Cruz, Hillary Clinton, and Bernie Sanders during the 2016 primary election campaign. Let's pick Donald Trump and try to build a classifier to predict whether a tweet was published by him (from an Android device) or his campaign team (from an iPhone).
+
+```{r}
+tweets <- read.csv('data/candidate-tweets.csv', stringsAsFactors=F)
+tweets <- tweets[tweets$screen_name=="realDonaldTrump",]
+# subsetting tweets in 2016
+tweets$datetime <- as.POSIXct(tweets$datetime)
+tweets <- tweets[tweets$datetime > as.POSIXct("2016-01-01 00:00:00"),]
+# variable measuring if tweet is coming from an Android device
+tweets$android <- ifelse(grepl("Android", tweets$source), 1, 0)
+prop.table(table(tweets$android))
+# removing URLs and handles
+tweets$text <- gsub('https?://t.co/[A-Za-z0-9]+', '', tweets$text)
+tweets$text <- gsub('@[0-9_A-Za-z]+', '@', tweets$text)
+```
+
+Create a training and test set, with 80% and 20%, respectively.
+
+```{r}
+
+```
+
+Construct the DFM. You may want to experiment with different preprocessing techniques until you achieve better performance.
+
+```{r}
+
+```
+
+Now run the classifier. Then, compute the accuracy. How well can you predict the device of the tweet?
+
+```{r}
+
+```
+
+Identify the features that better predict that tweets were sent from an Android device. What do you learn?
+
+```{r}
+
+```
+

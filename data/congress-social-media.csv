@@ -1,0 +1,539 @@
+"bioid","id","name","gender","type","party","twitter","facebook","youtube"
+"A000055","01460","Robert B. Aderholt","M","rep","Republican","Robert_Aderholt","RobertAderholt","RobertAderholt"
+"A000360","01695","Lamar Alexander","M","sen","Republican","SenAlexander","senatorlamaralexander","lamaralexander"
+"A000367","02029","Justin Amash","M","rep","Republican",NA,"repjustinamash","repjustinamash"
+"A000369","02090","Mark E. Amodei","M","rep","Republican","MarkAmodeiNV2","MarkAmodeiNV2","markamodeinv2"
+"A000370","02201","Alma S. Adams","F","rep","Democrat","RepAdams","CongresswomanAdams",NA
+"A000371","02229","Pete Aguilar","M","rep","Democrat","reppeteaguilar","reppeteaguilar",NA
+"A000372","02239","Rick W. Allen","M","rep","Republican","reprickallen","CongressmanRickAllen",NA
+"A000374","02244","Ralph Lee Abraham","M","rep","Republican","RepAbraham","CongressmanRalphAbraham",NA
+"A000375",NA,"Jodey C. Arrington","M","rep","Republican","RepArrington","JodeyArrington",NA
+"B000213","00062","Joe Barton","M","rep","Republican","RepJoeBarton","RepJoeBarton","repjoebarton"
+"B000490","00091","Sanford D. Bishop, Jr.","M","rep","Democrat","SanfordBishop","sanfordbishop","RepSanfordBishop"
+"B000574","00099","Earl Blumenauer","M","rep","Democrat","BlumenauerMedia",NA,"RepBlumenauer"
+"B000575","01464","Roy Blunt","M","sen","Republican","RoyBlunt","SenatorBlunt","SenatorBlunt"
+"B000755","01468","Kevin Brady","M","rep","Republican","RepKevinBrady","kevinbrady","KBrady8"
+"B000944","00136","Sherrod Brown","M","sen","Democrat","SenSherrodBrown",NA,"SherrodBrownOhio"
+"B001135","00153","Richard Burr","M","sen","Republican","SenatorBurr","SenatorRichardBurr","SenatorRichardBurr"
+"B001227","01469","Robert A. Brady","M","rep","Democrat","RepBrady","RepRobertBrady","BradyPA01"
+"B001230","01558","Tammy Baldwin","F","sen","Democrat","SenatorBaldwin","senatortammybaldwin","witammybaldwin"
+"B001236","01687","John Boozman","M","sen","Republican","JohnBoozman","JohnBoozman","BoozmanPressOffice"
+"B001243","01748","Marsha Blackburn","F","rep","Republican","MarshaBlackburn","marshablackburn","RepMarshaBlackburn"
+"B001245","01723","Madeleine Z. Bordallo","F","rep","Democrat",NA,"madeleine.bordallo","RepMadeleineBordallo"
+"B001248","01751","Michael C. Burgess","M","rep","Republican","MichaelCBurgess","michaelcburgess","michaelcburgessmd"
+"B001250","01753","Rob Bishop","M","rep","Republican","RepRobBishop","RepRobBishop","CongressmanBishop"
+"B001251","01761","G. K. Butterfield","M","rep","Democrat","GKButterfield","congressmangkbutterfield","GKBNC01"
+"B001257","01838","Gus M. Bilirakis","M","rep","Republican","RepGusBilirakis","GusBilirakis","RepGusBilirakis"
+"B001260","01840","Vern Buchanan","M","rep","Republican","VernBuchanan","CongressmanBuchanan","vernbuchanan"
+"B001261","01881","John Barrasso","M","sen","Republican","SenJohnBarrasso","johnbarrasso","barrassowyo"
+"B001267","01965","Michael F. Bennet","M","sen","Democrat","SenBennetCo","senbennetco","SenatorBennet"
+"B001269","02054","Lou Barletta","M","rep","Republican","RepLouBarletta","CongressmanLouBarletta","reploubarletta"
+"B001270","01996","Karen Bass","F","rep","Democrat","RepKarenBass","RepKarenBass","RepKarenBass"
+"B001273","02063","Diane Black","F","rep","Republican","RepDianeBlack","DianeBlackTN06","RepDianeBlack"
+"B001274","01987","Mo Brooks","M","rep","Republican","RepMoBrooks","RepMoBrooks","RepMoBrooks"
+"B001275","02018","Larry Bucshon","M","rep","Republican","RepLarryBucshon","RepLarryBucshon","RepLarryBucshon"
+"B001277","02076","Richard Blumenthal","M","sen","Democrat","SenBlumenthal","SenBlumenthal","SenatorBlumenthal"
+"B001278","02092","Suzanne Bonamici","F","rep","Democrat","RepBonamici","congresswomanbonamici","RepSuzanneBonamici"
+"B001281","02153","Joyce Beatty","F","rep","Democrat","RepBeatty","RepJoyceBeatty",NA
+"B001282","02131","Andy Barr","M","rep","Republican","RepAndyBarr","RepAndyBarr","RepAndyBarr"
+"B001283","02155","Jim Bridenstine","M","rep","Republican","RepJBridenstine","CongressmanJimBridenstine","RepJimBridenstine"
+"B001284","02129","Susan W. Brooks","F","rep","Republican","SusanWBrooks","congresswomansusanwbrooks","SusanWBrooks"
+"B001285","02106","Julia Brownley","F","rep","Democrat","JuliaBrownley26","RepJuliaBrownley","RepJuliaBrownley"
+"B001286","02127","Cheri Bustos","F","rep","Democrat","RepCheri","RepCheri","RepCheri"
+"B001287","02102","Ami Bera","M","rep","Democrat","RepBera","RepAmiBera","repamibera"
+"B001288","02194","Cory A. Booker","M","sen","Democrat","senbookeroffice",NA,"SenCoryBooker"
+"B001289","02197","Bradley Byrne","M","rep","Republican","RepByrne","RepByrne",NA
+"B001290","02203","Dave Brat","M","rep","Republican","RepDaveBrat","RepDaveBrat",NA
+"B001291","02270","Brian Babin","M","rep","Republican","RepBrianBabin","RepBrianBabin",NA
+"B001292","02272","Donald S. Beyer, Jr.","M","rep","Democrat","repdonbeyer","repdonbeyer",NA
+"B001293","02249","Mike Bishop","M","rep","Republican","RepMikeBishop","RepMikeBishop",NA
+"B001294","02241","Rod Blum","M","rep","Republican","RepRodBlum","congressmanrodblum",NA
+"B001295","02243","Mike Bost","M","rep","Republican","RepBost","RepBost",NA
+"B001296","02267","Brendan F. Boyle","M","rep","Democrat","CongBoyle","CongressmanBoyle",NA
+"B001297","02233","Ken Buck","M","rep","Republican","RepKenBuck","repkenbuck",NA
+"B001298",NA,"Don Bacon","M","rep","Republican","repdonbacon","RepDonBacon",NA
+"B001299",NA,"Jim Banks","M","rep","Republican","RepJimBanks","RepJimBanks",NA
+"B001300",NA,"Nanette Diaz Barragán","F","rep","Democrat","RepBarragan","CongresswomanBarragan",NA
+"B001301",NA,"Jack Bergman","M","rep","Republican","RepJackBergman","RepJackBergman","RepJackBergman"
+"B001302",NA,"Andy Biggs","M","rep","Republican","RepAndyBiggsAZ","RepAndyBiggs",NA
+"B001303",NA,"Lisa Blunt Rochester","F","rep","Democrat","RepBRochester","Rep.BluntRochester",NA
+"B001304",NA,"Anthony G. Brown","M","rep","Democrat","RepAnthonyBrown",NA,"RepAnthonyBrown"
+"B001305",NA,"Ted Budd","M","rep","Republican","RepTedBudd","RepTedBudd",NA
+"C000059","00165","Ken Calvert","M","rep","Republican","KenCalvert","70063393423","RepKenCalvert"
+"C000127","00172","Maria Cantwell","F","sen","Democrat","SenatorCantwell","senatorcantwell","SenatorCantwell"
+"C000141","00174","Benjamin L. Cardin","M","sen","Democrat","SenatorCardin","senatorbencardin","senatorcardin"
+"C000174","00179","Thomas R. Carper","M","sen","Democrat","SenatorCarper","tomcarper","senatorcarper"
+"C000266","00186","Steve Chabot","M","rep","Republican","RepSteveChabot","RepSteveChabot","congressmanchabot"
+"C000537","00208","James E. Clyburn","M","rep","Democrat","Clyburn","jameseclyburn","repjamesclyburn"
+"C000567","00213","Thad Cochran","M","sen","Republican","SenThadCochran",NA,"sencochran"
+"C000714","00229","John Conyers, Jr.","M","rep","Democrat","RepJohnConyers","CongressmanConyers","JCMI14"
+"C000754","00231","Jim Cooper","M","rep","Democrat","RepJimCooper","JimCooper","RepJimCooper"
+"C000880","00250","Mike Crapo","M","sen","Republican","MikeCrapo","mikecrapo","senatorcrapo"
+"C000984","00256","Elijah E. Cummings","M","rep","Democrat","RepCummings","elijahcummings","ElijahECummings"
+"C001035","01541","Susan M. Collins","F","sen","Republican","SenatorCollins","susancollins","SenatorSusanCollins"
+"C001037","01564","Michael E. Capuano","M","rep","Democrat","RepMikeCapuano","RepMichaelCapuano","RepMikeCapuano"
+"C001038","01604","Joseph Crowley","M","rep","Democrat","RepJoeCrowley","repjoecrowley","RepJoeCrowley"
+"C001047","01676","Shelley Moore Capito","F","sen","Republican","SenCapito","senshelley",NA
+"C001048","01670","John Abney Culberson","M","rep","Republican","CongCulberson","CongressmanCulberson","johnculbersontx07"
+"C001049","01654","Wm. Lacy Clay","M","rep","Democrat",NA,"109135405838588","WilliamLacyClay"
+"C001051","01752","John R. Carter","M","rep","Republican","JudgeCarter","judgecarter","repjohncarter"
+"C001053","01742","Tom Cole","M","rep","Republican","TomColeOK04","TomColeOK04","reptomcole"
+"C001056","01692","John Cornyn","M","sen","Republican","JohnCornyn","sen.johncornyn","senjohncornyn"
+"C001059","01774","Jim Costa","M","rep","Democrat","RepJimCosta","RepJimCosta","RepJimCostaCA20"
+"C001061","01790","Emanuel Cleaver","M","rep","Democrat","RepCleaver","emanuelcleaverii","repcleaver"
+"C001062","01805","K. Michael Conaway","M","rep","Republican","ConawayTX11","mike.conaway","mikeconaway11"
+"C001063","01807","Henry Cuellar","M","rep","Democrat","RepCuellar","152569121550","henrycuellar"
+"C001066","01839","Kathy Castor","F","rep","Democrat","USRepKCastor","USRepKathyCastor","RepKathyCastor"
+"C001067","01864","Yvette D. Clarke","F","rep","Democrat","RepYvetteClarke","repyvettedclarke","repyvetteclarke"
+"C001068","01878","Steve Cohen","M","rep","Democrat","RepCohen","CongressmanSteveCohen","repcohen"
+"C001069","01836","Joe Courtney","M","rep","Democrat","RepJoeCourtney","joecourtney","repcourtney"
+"C001070","01828","Robert P. Casey, Jr.","M","sen","Democrat","SenBobCasey","SenatorBobCasey","SenatorBobCasey"
+"C001071","01825","Bob Corker","M","sen","Republican","SenBobCorker","bobcorker","senatorcorker"
+"C001072","01889","André Carson","M","rep","Democrat","RepAndreCarson","CongressmanAndreCarson","repandrecarson"
+"C001075","01925","Bill Cassidy","M","sen","Republican",NA,NA,"SenatorBillCassidy"
+"C001076","01956","Jason Chaffetz","M","rep","Republican","JasonInTheHouse","CongressmanJasonChaffetz","JasonChaffetz"
+"C001077","01912","Mike Coffman","M","rep","Republican","RepMikeCoffman","repmikecoffman","CongressmanCoffman"
+"C001078","01959","Gerald E. Connolly","M","rep","Democrat","GerryConnolly","CongressmanGerryConnolly","repconnolly"
+"C001080","01970","Judy Chu","F","rep","Democrat","RepJudyChu","RepJudyChu","RepJudyChu"
+"C001084","02055","David N. Cicilline","M","rep","Democrat","RepCicilline","CongressmanDavidCicilline","RepDavidCicilline"
+"C001087","01989","Eric A. ""Rick"" Crawford","M","rep","Republican","RepRickCrawford","RepRickCrawford","RepRickCrawford"
+"C001088","01984","Christopher A. Coons","M","sen","Democrat","SenCoonsOffice","senatorchriscoons","senatorchriscoons"
+"C001090","02159","Matt Cartwright","M","rep","Democrat","RepCartwright","CongressmanMattCartwright",NA
+"C001091","02163","Joaquin Castro","M","rep","Democrat","JoaquinCastrotx","326420614138023","JoaquinCastroTX"
+"C001092","02151","Chris Collins","M","rep","Republican","RepChrisCollins","RepChrisCollins","RepChrisCollins"
+"C001093","02121","Doug Collins","M","rep","Republican","RepDougCollins","RepresentativeDougCollins","repdougcollins"
+"C001094","02103","Paul Cook","M","rep","Republican","RepPaulCook","RepPaulCook","RepPaulCook"
+"C001095","02098","Tom Cotton","M","sen","Republican","SenTomCotton","SenatorTomCotton","RepTomCotton"
+"C001096","02144","Kevin Cramer","M","rep","Republican","RepKevinCramer","CongressmanKevinCramer","kevincramer"
+"C001097","02107","Tony Cárdenas","M","rep","Democrat","RepCardenas","repcardenas","repcardenas"
+"C001098","02175","Ted Cruz","M","sen","Republican","SenTedCruz","SenatorTedCruz","sentedcruz"
+"C001101","02196","Katherine M. Clark","F","rep","Democrat","RepKClark","CongresswomanClark",NA
+"C001103","02236","Earl L. ""Buddy"" Carter","M","rep","Republican","RepBuddyCarter","congressmanbuddycarter",NA
+"C001105","02273","Barbara Comstock","F","rep","Republican","RepComstock","RepBarbaraComstock",NA
+"C001106","02266","Ryan A. Costello","M","rep","Republican","RepRyanCostello","CongressmanRyanCostello",NA
+"C001107","02235","Carlos Curbelo","M","rep","Republican","RepCurbelo","repcurbelo",NA
+"C001108",NA,"James Comer","M","rep","Republican",NA,"congressmancomer",NA
+"C001109",NA,"Liz Cheney","F","rep","Republican","RepLizCheney","replizcheney",NA
+"C001110",NA,"J. Luis Correa","M","rep","Democrat","reploucorrea",NA,NA
+"C001111",NA,"Charlie Crist","M","rep","Democrat","repcharliecrist","RepCharlieCrist",NA
+"C001112",NA,"Salud O. Carbajal","M","rep","Democrat","RepCarbajal","repsaludcarbajal","repcarbajal"
+"C001113",NA,"Catherine Cortez Masto","F","sen","Democrat","sencortezmasto","SenatorCortezMasto",NA
+"D000096","01477","Danny K. Davis","M","rep","Democrat","RepDannyDavis","CongressmanDKDavis","dannykdavis07"
+"D000191","00279","Peter A. DeFazio","M","rep","Democrat","RepPeterDeFazio","RepPeterDeFazio","PeterDeFazio"
+"D000197","01479","Diana DeGette","F","rep","Democrat","RepDianaDeGette","DianaDeGette","RepDianaDeGette"
+"D000216","00281","Rosa L. DeLauro","F","rep","Democrat","RosaDeLauro","CongresswomanRosaDeLauro","rosadelauro"
+"D000399","00303","Lloyd Doggett","M","rep","Democrat","RepLloydDoggett","lloyddoggett","doggett"
+"D000482","00316","Michael F. Doyle","M","rep","Democrat","USRepMikeDoyle","usrepmikedoyle","CongressmanDoyle"
+"D000533","00322","John J. Duncan, Jr.","M","rep","Republican","RepJohnDuncanJr","CongressmanDuncan","RepJohnDuncan"
+"D000563","00326","Richard J. Durbin","M","sen","Democrat","SenatorDurbin","SenatorDurbin","SenatorDurbin"
+"D000598","01641","Susan A. Davis","F","rep","Democrat","RepSusanDavis","RepSusanDavis",NA
+"D000600","01717","Mario Diaz-Balart","M","rep","Republican","MarioDB","mdiazbalart","MarioDiazBalart"
+"D000604","01799","Charles W. Dent","M","rep","Republican","RepCharlieDent","CongressmanDent","CongressmanDent"
+"D000607","01850","Joe Donnelly","M","sen","Democrat","SenDonnelly","senatordonnelly","sendonnelly"
+"D000610","01976","Theodore E. Deutch","M","rep","Democrat","RepTedDeutch","CongressmanTedDeutch","congressmanteddeutch"
+"D000612","01995","Jeff Denham","M","rep","Republican","RepJeffDenham","RepJeffDenham","repjeffdenham"
+"D000614","02072","Sean P. Duffy","M","rep","Republican","RepSeanDuffy","RepSeanDuffy","RepSeanDuffy"
+"D000615","02057","Jeff Duncan","M","rep","Republican","RepJeffDuncan","RepJeffDuncan","congjeffduncan"
+"D000616","02062","Scott DesJarlais","M","rep","Republican","DesJarlaisTN04","ScottDesJarlaisTN04","ScottDesJarlaisTN04"
+"D000617","02096","Suzan K. DelBene","F","rep","Democrat","RepDelBene","RepDelBene",NA
+"D000618","02138","Steve Daines","M","sen","Republican","SteveDaines","SteveDainesMT","SteveDainesMT"
+"D000619","02126","Rodney Davis","M","rep","Republican","RodneyDavis","RepRodneyDavis","RepRodneyDavis"
+"D000620","02133","John K. Delaney","M","rep","Democrat","RepJohnDelaney","congressmanjohndelaney","repjohndelaney"
+"D000621","02116","Ron DeSantis","M","rep","Republican","RepDeSantis","RepDeSantis","RepRonDeSantis"
+"D000622","02123","Tammy Duckworth","F","sen","Democrat","SenDuckworth","SenDuckworth","repduckworth"
+"D000623","02227","Mark DeSaulnier","M","rep","Democrat","RepDeSaulnier","RepMarkDeSaulnier",NA
+"D000624","02251","Debbie Dingell","F","rep","Democrat","RepDebDingell","RepDebbieDingell",NA
+"D000625","02293","Daniel M. Donovan, Jr.","M","rep","Republican","RepDanDonovan","RepDanDonovan",NA
+"D000626","02296","Warren Davidson","M","rep","Republican","WarrenDavidson","CongressmanWarrenDavidson",NA
+"D000627",NA,"Val Butler Demings","F","rep","Democrat","RepValDemings","RepresentativeValDemings",NA
+"D000628",NA,"Neal P. Dunn","M","rep","Republican","drnealdunnfl2","drnealdunnfl2",NA
+"E000179","00344","Eliot L. Engel","M","rep","Democrat","RepEliotEngel","RepEliotLEngel","engel2161"
+"E000215","00355","Anna G. Eshoo","F","rep","Democrat","RepAnnaEshoo","RepAnnaEshoo","RepAnnaEshoo"
+"E000285","01542","Michael B. Enzi","M","sen","Republican","SenatorEnzi","mikeenzi","senatorenzi"
+"E000288","01857","Keith Ellison","M","rep","Democrat","KeithEllison","Keith.Ellison","RepKeithEllison"
+"E000293","02114","Elizabeth H. Esty","F","rep","Democrat","RepEsty","RepEsty","RepEsty"
+"E000294","02253","Tom Emmer","M","rep","Republican","RepTomEmmer","reptomemmer","RepTomEmmer"
+"E000295","02283","Joni Ernst","F","sen","Republican","SenJoniErnst","senjoniernst",NA
+"E000296",NA,"Dwight Evans","M","rep","Democrat","RepDwightEvans","RepDwightEvans",NA
+"E000297",NA,"Adriano Espaillat","M","rep","Democrat","RepEspaillat","RepEspaillat",NA
+"E000298",NA,"Ron Estes","M","rep","Republican","RepRonEstes","RepRonEstes",NA
+"F000062","01332","Dianne Feinstein","F","sen","Democrat","SenFeinstein","senatorfeinstein","SenatorFeinstein"
+"F000372","00414","Rodney P. Frelinghuysen","M","rep","Republican","USRepRodney","rfrelinghuysen","RepFrelinghuysen"
+"F000444","01633","Jeff Flake","M","sen","Republican","JeffFlake","senatorjeffflake","flakeoffice"
+"F000448","01707","Trent Franks","M","rep","Republican","RepTrentFranks","TrentFranks","RepTrentFranks"
+"F000449","01793","Jeff Fortenberry","M","rep","Republican","JeffFortenberry","jefffortenberry","JeffFortenberry"
+"F000450","01791","Virginia Foxx","F","rep","Republican","VirginiaFoxx","RepVirginiaFoxx","repvirginiafoxx"
+"F000454","01888","Bill Foster","M","rep","Democrat","RepBillFoster","CongressmanBillFoster","RepBillFoster"
+"F000455","01895","Marcia L. Fudge","F","rep","Democrat","RepMarciaFudge","RepMarciaLFudge","marcialfudge"
+"F000457","01969","Al Franken","M","sen","Democrat","SenFranken","senatoralfranken","SenatorFranken"
+"F000459","02061","Charles J. ""Chuck"" Fleischmann","M","rep","Republican","RepChuck","repchuck","repchuck"
+"F000460","02067","Blake Farenthold","M","rep","Republican","Farenthold","BlakeFarenthold","BlakeFarenthold"
+"F000461","02065","Bill Flores","M","rep","Republican","RepBillFlores","RepBillFlores","RepBillFlores"
+"F000462","02119","Lois Frankel","F","rep","Democrat","RepLoisFrankel","RepLoisFrankel","reploisfrankel"
+"F000463","02179","Deb Fischer","F","sen","Republican","SenatorFischer","senatordebfischer","senatordebfischer"
+"F000464",NA,"John J. Faso","M","rep","Republican","RepJohnFaso","RepJohnFaso",NA
+"F000465",NA,"A. Drew Ferguson IV","M","rep","Republican","RepDrewFerguson","RepDrewFerguson",NA
+"F000466",NA,"Brian K. Fitzpatrick","M","rep","Republican","repbrianfitz","repbrianfitzpatrick",NA
+"G000289","00446","Bob Goodlatte","M","rep","Republican","RepGoodlatte","BobGoodlatte","RepBobGoodlatte"
+"G000359","00452","Lindsey Graham","M","sen","Republican","GrahamBlog","USSenatorLindseyGraham","USSenLindseyGraham"
+"G000377","01487","Kay Granger","F","rep","Republican","RepKayGranger","RepKayGranger","RepKayGranger"
+"G000386","00457","Chuck Grassley","M","sen","Republican","ChuckGrassley","grassley","senchuckgrassley"
+"G000410","00462","Gene Green","M","rep","Democrat","RepGeneGreen","RepGeneGreen","RepGeneGreen"
+"G000535","00478","Luis V. Gutiérrez","M","rep","Democrat","RepGutierrez","RepGutierrez","repluisgutierrez"
+"G000546","01656","Sam Graves","M","rep","Republican","RepSamGraves","118514606128",NA
+"G000551","01708","Raúl M. Grijalva","M","rep","Democrat","RepraulGrijalva","Rep.Grijalva","raulgrijalvaaz07"
+"G000552","01801","Louie Gohmert","M","rep","Republican","RepLouieGohmert","50375006903","GohmertTX01"
+"G000553","01803","Al Green","M","rep","Democrat","RepAlGreen","repalgreen","RepAlGreen"
+"G000555","01866","Kirsten E. Gillibrand","F","sen","Democrat","SenGillibrand","KirstenGillibrand","KirstenEGillibrand"
+"G000558","01922","Brett Guthrie","M","rep","Republican","RepGuthrie",NA,"BrettGuthrie"
+"G000559","01973","John Garamendi","M","rep","Democrat","RepGaramendi","repgaramendi","garamendiCA10"
+"G000560","01979","Tom Graves","M","rep","Republican","RepTomGraves","reptomgraves","CongressmanGraves"
+"G000562","01998","Cory Gardner","M","sen","Republican","SenCoryGardner","SenCoryGardner",NA
+"G000563","02049","Bob Gibbs","M","rep","Republican","RepBobGibbs","RepBobGibbs","RepBobGibbs"
+"G000565","01992","Paul A. Gosar","M","rep","Republican","RepGosar","repgosar","repgosar"
+"G000566","02058","Trey Gowdy","M","rep","Republican","TGowdySC","RepTreyGowdy","TGowdySC"
+"G000568","02070","H. Morgan Griffith","M","rep","Republican","RepMGriffith","RepMorganGriffith","RepMorganGriffith"
+"G000571","02122","Tulsi Gabbard","F","rep","Democrat","TulsiPress","RepTulsiGabbard","tulsipress"
+"G000574","02226","Ruben Gallego","M","rep","Democrat","RepRubenGallego","RepRubenGallego",NA
+"G000576","02276","Glenn Grothman","M","rep","Republican","RepGrothman","RepGrothman",NA
+"G000577","02245","Garret Graves","M","rep","Republican","RepGarretGraves","CongressmanGarretGraves",NA
+"G000578",NA,"Matt Gaetz","M","rep","Republican","RepMattGaetz","CongressmanMattGaetz",NA
+"G000579",NA,"Mike Gallagher","M","rep","Republican","RepGallagher","RepMikeGallagher",NA
+"G000580",NA,"Thomas A. Garrett, Jr.","M","rep","Republican","Rep_Tom_Garrett","congressman-Tom-Garrett-1835767753333490",NA
+"G000581",NA,"Vicente Gonzalez","M","rep","Democrat","RepGonzalez","USCongressmanVicenteGonzalez",NA
+"G000582",NA,"Jenniffer González-Colón","F","rep","Republican","repjenniffer","RepJennifferGonzalezColon",NA
+"G000583",NA,"Josh Gottheimer","M","rep","Democrat","RepJoshG","RepJoshG",NA
+"G000584",NA,"Greg Gianforte","M","rep","Republican",NA,NA,NA
+"H000324","00511","Alcee L. Hastings","M","rep","Democrat","RepHastingsFL","95696782238","RepAlceeHastings"
+"H000338","01351","Orrin G. Hatch","M","sen","Republican","SenOrrinHatch","senatororrinhatch","SenatorOrrinHatch"
+"H000874","00566","Steny H. Hoyer","M","rep","Democrat","WhipHoyer","WhipHoyer","LeaderHoyer"
+"H001036","01749","Jeb Hensarling","M","rep","Republican","RepHensarling","RepHensarling","repjebhensarling"
+"H001038","01794","Brian Higgins","M","rep","Democrat","RepBrianHiggins","RepBrianHiggins","CongressmanHiggins"
+"H001041","01863","Dean Heller","M","sen","Republican","SenDeanHeller","SenDeanHeller","SenDeanHeller"
+"H001042","01844","Mazie K. Hirono","F","sen","Democrat","MazieHirono","senatorhirono","CongresswomanHirono"
+"H001045","01933","Gregg Harper","M","rep","Republican","GreggHarper","GreggHarper","congressmanharper"
+"H001046","01937","Martin Heinrich","M","sen","Democrat","MartinHeinrich","MartinHeinrich","SenMartinHeinrich"
+"H001047","01913","James A. Himes","M","rep","Democrat","JAHimes","CongressmanJimHimes","congressmanhimes"
+"H001048","01909","Duncan Hunter","M","rep","Republican","Rep_Hunter","DuncanHunter","CongressmanHunter"
+"H001050","02010","Colleen Hanabusa","F","rep","Democrat","RepHanabusa",NA,NA
+"H001052","02026","Andy Harris","M","rep","Republican","RepAndyHarrisMD","AndyHarrisMD","RepAndyHarris"
+"H001053","02032","Vicky Hartzler","F","rep","Republican","RepHartzler","Congresswoman.Hartzler","repvickyhartzler"
+"H001056","02071","Jaime Herrera Beutler","F","rep","Republican","HerreraBeutler","herrerabeutler","RepHerreraBeutler"
+"H001058","02028","Bill Huizenga","M","rep","Republican","RepHuizenga","RepHuizenga","RepHuizenga"
+"H001059","02015","Randy Hultgren","M","rep","Republican","RepHultgren","RepHultgren","rephultgren"
+"H001061","02079","John Hoeven","M","sen","Republican","SenJohnHoeven","SenatorJohnHoeven","senatorjohnhoevennd"
+"H001064","02170","Denny Heck","M","rep","Democrat","RepDennyHeck","CongressmanDennyHeck","RepDennyHeck"
+"H001065","02143","George Holding","M","rep","Republican","RepHolding","CongressmanGeorgeHolding","repholding"
+"H001067","02140","Richard Hudson","M","rep","Republican","RepRichHudson","RepRichHudson","RepRichHudson"
+"H001068","02101","Jared Huffman","M","rep","Democrat","RepHuffman","RepHuffman","rephuffman"
+"H001069","02174","Heidi Heitkamp","F","sen","Democrat","SenatorHeitkamp","SenatorHeidiHeitkamp","senatorheidiheitkamp"
+"H001071","02237","Jody B. Hice","M","rep","Republican","congressmanhice","CongressmanJodyHice",NA
+"H001072","02223","J. French Hill","M","rep","Republican","RepFrenchHill","RepFrenchHill",NA
+"H001073","02269","Will Hurd","M","rep","Republican","hurdonthehill","HurdOnTheHill",NA
+"H001074",NA,"Trey Hollingsworth","M","rep","Republican","reptrey","reptrey",NA
+"H001075",NA,"Kamala D. Harris","F","sen","Democrat","SenKamalaHarris","SenatorKamalaHarris",NA
+"H001076",NA,"Margaret Wood Hassan","F","sen","Democrat","Senatorhassan","SenatorHassan",NA
+"H001077",NA,"Clay Higgins","M","rep","Republican","RepClayHiggins",NA,NA
+"I000024","00583","James M. Inhofe","M","sen","Republican","InhofePress","jiminhofe","jiminhofepressoffice"
+"I000055","01608","Johnny Isakson","M","sen","Republican","SenatorIsakson",NA,"SenatorIsakson"
+"I000056","01640","Darrell E. Issa","M","rep","Republican","DarrellIssa","darrellissa","repdarrellissa"
+"J000032","00588","Sheila Jackson Lee","F","rep","Democrat","JacksonLeeTX18","CongresswomanSheilaJacksonLee","TX18SJL"
+"J000126","00599","Eddie Bernice Johnson","F","rep","Democrat","RepEBJ","CongresswomanEBJtx30","RepEddieBJohnson"
+"J000174","00603","Sam Johnson","M","rep","Republican","SamsPressShop","RepSamJohnson","RepSamJohnson"
+"J000255","00612","Walter B. Jones","M","rep","Republican","RepWalterJones","15083070102","RepWalterJones"
+"J000288","01843","Henry C. ""Hank"" Johnson, Jr.","M","rep","Democrat","RepHankJohnson","115356957005","RepHankJohnson"
+"J000289","01868","Jim Jordan","M","rep","Republican","Jim_Jordan","repjimjordan","RepJimJordan"
+"J000290","01921","Lynn Jenkins","F","rep","Republican","RepLynnJenkins","replynnjenkins","RepLynnJenkins"
+"J000292","02046","Bill Johnson","M","rep","Republican","RepBillJohnson","RepBillJohnson","RepBillJohnson"
+"J000293","02086","Ron Johnson","M","sen","Republican","SenRonJohnson","senronjohnson","SenatorRonJohnson"
+"J000294","02149","Hakeem S. Jeffries","M","rep","Democrat","RepJeffries","RepHakeemJeffries",NA
+"J000295","02154","David P. Joyce","M","rep","Republican","RepDaveJoyce","RepDaveJoyce","repdavejoyce"
+"J000297","02278","Evan H. Jenkins","M","rep","Republican","RepEvanJenkins","RepEvanJenkins",NA
+"J000298",NA,"Pramila Jayapal","F","rep","Democrat","RepJayapal","RepJayapal",NA
+"J000299",NA,"Mike Johnson","M","rep","Republican","RepMikeJohnson","RepMikeJohnson",NA
+"K000009","00616","Marcy Kaptur","F","rep","Democrat","RepMarcyKaptur","RepresentativeMarcyKaptur","USRepMarcyKaptur"
+"K000188","01498","Ron Kind","M","rep","Democrat","RepRonKind","repronkind","RepRonKind"
+"K000210","00635","Peter T. King","M","rep","Republican","RepPeteKing",NA,"RepPeterKing"
+"K000362","01724","Steve King","M","rep","Republican","SteveKingIA","stevekingia","stevekingia"
+"K000367","01826","Amy Klobuchar","F","sen","Democrat",NA,NA,"senatorklobuchar"
+"K000375","02025","William R. Keating","M","rep","Democrat","USRepKeating","Congressman.Keating","RepBillKeating"
+"K000376","02051","Mike Kelly","M","rep","Republican","MikeKellyPA","191056827594903","repmikekelly"
+"K000378","02014","Adam Kinzinger","M","rep","Republican","RepKinzinger","RepKinzinger","RepAdamKinzinger"
+"K000379","02172","Joseph P. Kennedy III","M","rep","Democrat","RepJoeKennedy","301936109927957",NA
+"K000380","02134","Daniel T. Kildee","M","rep","Democrat","RepDanKildee","RepDanKildee","RepDanKildee"
+"K000381","02169","Derek Kilmer","M","rep","Democrat","RepDerekKilmer","derek.kilmer",NA
+"K000382","02145","Ann M. Kuster","F","rep","Democrat","RepAnnieKuster","CongresswomanAnnieKuster","RepKuster"
+"K000383","02185","Angus S. King, Jr.","M","sen","Independent","SenAngusKing","SenatorAngusSKingJr","SenatorAngusKing"
+"K000384","02176","Tim Kaine","M","sen","Democrat","SenKaineOffice","SenatorKaine","SenatorTimKaine"
+"K000385","02190","Robin L. Kelly","F","rep","Democrat","RepRobinKelly","reprobinkelly",NA
+"K000386","02264","John Katko","M","rep","Republican","RepJohnKatko","RepJohnKatko",NA
+"K000387","02228","Stephen Knight","M","rep","Republican","SteveKnight25","RepresentativeSteveKnight",NA
+"K000388","02294","Trent Kelly","M","rep","Republican","reptrentkelly","reptrentkelly",NA
+"K000389",NA,"Ro Khanna","M","rep","Democrat","RepRoKhanna","RepRoKhanna",NA
+"K000390",NA,"Ruben J. Kihuen","M","rep","Democrat","RepKihuen","RepKihuen",NA
+"K000391",NA,"Raja Krishnamoorthi","M","rep","Democrat","congressmanraja","congressmanraja",NA
+"K000392",NA,"David Kustoff","M","rep","Republican","repdavidkustoff","RepDavidKustoff",NA
+"K000393",NA,"John Kennedy","M","sen","Republican","SenJohnKennedy","JohnKennedyLouisiana",NA
+"L000174","01383","Patrick J. Leahy","M","sen","Democrat","SenatorLeahy","SenatorPatrickLeahy","SenatorPatrickLeahy"
+"L000263","00683","Sander M. Levin","M","rep","Democrat","RepSandyLevin","RepSandyLevin","mi12yes"
+"L000287","00688","John Lewis","M","rep","Democrat","RepJohnLewis","RepJohnLewis","repjohnlewis"
+"L000397","00701","Zoe Lofgren","F","rep","Democrat","RepZoeLofgren","zoelofgren","RepZoeLofgren"
+"L000480","00709","Nita M. Lowey","F","rep","Democrat","NitaLowey","RepLowey","nitalowey"
+"L000491","00711","Frank D. Lucas","M","rep","Republican","RepFrankLucas","RepFrankLucas","RepFrankLucas"
+"L000551","01501","Barbara Lee","F","rep","Democrat","RepBarbaraLee","RepBarbaraLee","RepLee"
+"L000554","00699","Frank A. LoBiondo","M","rep","Republican","RepLoBiondo","FrankLoBiondo","USRepFrankLoBiondo"
+"L000557","01583","John B. Larson","M","rep","Democrat","RepJohnLarson","RepJohnLarson","RepJohnLarson"
+"L000559","01668","James R. Langevin","M","rep","Democrat","JimLangevin","CongressmanJimLangevin","jimlangevin"
+"L000560","01675","Rick Larsen","M","rep","Democrat","RepRickLarsen","RepRickLarsen","congressmanlarsen"
+"L000562","01686","Stephen F. Lynch","M","rep","Democrat","RepStephenLynch","repstephenlynch","RepLynch"
+"L000563","01781","Daniel Lipinski","M","rep","Democrat","RepLipinski","repdanlipinski","lipinski03"
+"L000564","01834","Doug Lamborn","M","rep","Republican","RepDLamborn","CongressmanDougLamborn","CongressmanLamborn"
+"L000565","01846","David Loebsack","M","rep","Democrat","DaveLoebsack","DaveLoebsack","congressmanloebsack"
+"L000566","01885","Robert E. Latta","M","rep","Republican","BobLatta","boblatta","CongressmanBobLatta"
+"L000567","01936","Leonard Lance","M","rep","Republican","RepLanceNJ7","CongressmanLance","CongressmanLance"
+"L000569","01931","Blaine Luetkemeyer","M","rep","Republican","RepBlainePress","BlaineLuetkemeyer","BLuetkemeyer"
+"L000570","01939","Ben Ray Luján","M","rep","Democrat","RepBenRayLujan","RepBenRayLujan","Repbenraylujan"
+"L000573","02011","Raúl R. Labrador","M","rep","Republican","Raul_Labrador","raul.r.labrador","RepLabrador"
+"L000575","02050","James Lankford","M","sen","Republican","SenatorLankford","SenatorLankford","SenatorLankford"
+"L000576","02033","Billy Long","M","rep","Republican","USRepLong","Rep.Billy.Long","MOdistrict7"
+"L000577","02080","Mike Lee","M","sen","Republican","SenMikeLee","senatormikelee","senatormikelee"
+"L000578","02100","Doug LaMalfa","M","rep","Republican","RepLaMalfa","RepLaMalfa","RepLaMalfa"
+"L000579","02111","Alan S. Lowenthal","M","rep","Democrat","RepLowenthal","RepLowenthal","RepLowenthal"
+"L000580","02146","Michelle Lujan Grisham","F","rep","Democrat","RepLujanGrisham","RepLujanGrisham","RepLujanGrisham"
+"L000581","02252","Brenda L. Lawrence","F","rep","Democrat","RepLawrence","395759603917487",NA
+"L000582","02230","Ted Lieu","M","rep","Democrat","RepTedLieu","RepTedLieu",NA
+"L000583","02238","Barry Loudermilk","M","rep","Republican","RepLoudermilk","reploudermilk",NA
+"L000584","02271","Mia B. Love","F","rep","Republican","repmialove","repmialove",NA
+"L000585","02295","Darin LaHood","M","rep","Republican","RepLaHood","replahood",NA
+"L000586",NA,"Al Lawson, Jr.","M","rep","Democrat","RepAlLawsonJr","RepAlLawsonJr",NA
+"L000587",NA,"Jason Lewis","M","rep","Republican","RepJasonLewis","RepJasonLewis",NA
+"M000087","00729","Carolyn B. Maloney","F","rep","Democrat","RepMaloney",NA,"carolynbmaloney"
+"M000133","00735","Edward J. Markey","M","sen","Democrat","SenMarkey","EdJMarkey","RepMarkey"
+"M000303","00754","John McCain","M","sen","Republican","SenJohnMcCain","johnmccain","SenatorJohnMcCain"
+"M000312","01504","James P. McGovern","M","rep","Democrat","RepMcGovern","RepJimMcGovern","repjimmcgovern"
+"M000355","01395","Mitch McConnell","M","sen","Republican","McConnellPress","mitchmcconnell",NA
+"M000639","00791","Robert Menendez","M","sen","Democrat","SenatorMenendez","senatormenendez","SenatorMenendezNJ"
+"M000934","01507","Jerry Moran","M","sen","Republican","JerryMoran","jerrymoran","senatorjerrymoran"
+"M001111","01409","Patty Murray","F","sen","Democrat","PattyMurray",NA,"SenatorPattyMurray"
+"M001137","01506","Gregory W. Meeks","M","rep","Democrat","GregoryMeeks","gregorymeeksny05","gwmeeks"
+"M001143","01653","Betty McCollum","F","rep","Democrat","BettyMcCollum04","repbettymccollum",NA
+"M001151","01744","Tim Murphy","M","rep","Republican","RepTimMurphy","reptimmurphy","TimMurphyPA18"
+"M001153","01694","Lisa Murkowski","F","sen","Republican","LisaMurkowski","SenLisaMurkowski","senatormurkowski"
+"M001156","01792","Patrick T. McHenry","M","rep","Republican","PatrickMcHenry","CongressmanMcHenry","CongressmanMcHenry"
+"M001157","01804","Michael T. McCaul","M","rep","Republican","RepMcCaul","michaeltmccaul","MichaelTMcCaul"
+"M001158","01806","Kenny Marchant","M","rep","Republican","RepKenMarchant","RepKennyMarchant","RepKennyMarchant"
+"M001159","01809","Cathy McMorris Rodgers","F","rep","Republican","CathyMcMorris","mcmorrisrodgers","mcmorrisrodgers"
+"M001160","01811","Gwen Moore","F","rep","Democrat","RepGwenMoore","GwenSMoore","RepGwenMoore"
+"M001163","01814","Doris O. Matsui","F","rep","Democrat","DorisMatsui","doris.matsui","RepDorisMatsui"
+"M001165","01833","Kevin McCarthy","M","rep","Republican","GOPLeader","CongressmanKevinMcCarthy","repkevinmccarthy"
+"M001166","01832","Jerry McNerney","M","rep","Democrat","RepMcNerney","jerrymcnerney","RepJerryMcNerney"
+"M001169","01837","Christopher Murphy","M","sen","Democrat","senmurphyoffice","chrismurphyct","senchrismurphy"
+"M001170","01820","Claire McCaskill","F","sen","Democrat","McCaskillOffice","senatormccaskill","SenatorMcCaskill"
+"M001176","01900","Jeff Merkley","M","sen","Democrat","SenJeffMerkley","jeffmerkley","SenatorJeffMerkley"
+"M001177","01908","Tom McClintock","M","rep","Republican","RepMcClintock","81125319109","McClintockCA04"
+"M001179","02053","Tom Marino","M","rep","Republican","RepTomMarino","CongressmanMarino","RepMarino"
+"M001180","02074","David B. McKinley","M","rep","Republican","RepMcKinley","RepMcKinley","RepDavidMcKinley"
+"M001181","02052","Patrick Meehan","M","rep","Republican","RepMeehan","CongressmanPatrickMeehan","repmeehan"
+"M001183","01983","Joe Manchin, III","M","sen","Democrat","Sen_JoeManchin","JoeManchinIII","SenatorJoeManchin"
+"M001184","02094","Thomas Massie","M","rep","Republican","RepThomasMassie","RepThomasMassie","repthomasmassie"
+"M001185","02150","Sean Patrick Maloney","M","rep","Democrat","RepSeanMaloney","RepSeanMaloney",NA
+"M001187","02142","Mark Meadows","M","rep","Republican","RepMarkMeadows","Repmarkmeadows","RepMarkMeadows"
+"M001188","02148","Grace Meng","F","rep","Democrat","RepGraceMeng","repgracemeng",NA
+"M001189","02130","Luke Messer","M","rep","Republican","RepLukeMesser","RepLukeMesser","RepLukeMesser"
+"M001190","02156","Markwayne Mullin","M","rep","Republican","RepMullin","RepMullin",NA
+"M001193","02258","Thomas MacArthur","M","rep","Republican","RepTomMacArthur","CongressmanTomMacArthur",NA
+"M001194","02248","John R. Moolenaar","M","rep","Republican","RepMoolenaar","RepMoolenaar",NA
+"M001195","02277","Alexander X. Mooney","M","rep","Republican","RepAlexMooney","CongressmanAlexMooney",NA
+"M001196","02246","Seth Moulton","M","rep","Democrat","teammoulton","CongressmanSethMoulton",NA
+"M001197","02225","Martha McSally","F","rep","Republican","RepMcSally","RepMcSally",NA
+"M001198",NA,"Roger W. Marshall","M","rep","Republican","RepMarshall","rogermarshallmd",NA
+"M001199",NA,"Brian J. Mast","M","rep","Republican","repbrianmast","repbrianmast","repbrianmast"
+"M001200",NA,"A. Donald McEachin","M","rep","Democrat","RepMcEachin","RepMcEachin",NA
+"M001201",NA,"Paul Mitchell","M","rep","Republican","RepPaulMitchell","reppaulmitchell",NA
+"M001202",NA,"Stephanie N. Murphy","F","rep","Democrat","RepStephMurphy","RepStephMurphy","RepStephMurphy"
+"N000002","00850","Jerrold Nadler","M","rep","Democrat","RepJerryNadler","CongressmanNadler","congressmannadler"
+"N000015","00854","Richard E. Neal","M","rep","Democrat","RepRichardNeal","reprichardneal","RepRichardENeal"
+"N000032","00859","Bill Nelson","M","sen","Democrat","SenBillNelson",NA,"senbillnelson"
+"N000127","00867","Richard M. Nolan","M","rep","Democrat","USRepRickNolan","UsRepRickNolan","USRepRickNolan"
+"N000147","00868","Eleanor Holmes Norton","F","rep","Democrat","EleanorNorton","CongresswomanNorton","EleanorHNorton"
+"N000179","01602","Grace F. Napolitano","F","rep","Democrat","GraceNapolitano","RepGraceNapolitano","RepGraceNapolitano"
+"N000181","01710","Devin Nunes","M","rep","Republican","Rep_DevinNunes",NA,"RepDevinNunes"
+"N000184","02060","Kristi L. Noem","F","rep","Republican","RepKristiNoem",NA,"RepKristiNoem"
+"N000188","02202","Donald Norcross","M","rep","Democrat","DonaldNorcross","DonaldNorcrossNJ",NA
+"N000189","02275","Dan Newhouse","M","rep","Republican","RepNewhouse","RepNewhouse",NA
+"O000168","01955","Pete Olson","M","rep","Republican","RepPeteOlson","Rep.PeteOlson",NA
+"O000170","02162","Beto O'Rourke","M","rep","Democrat","RepBetoORourke","betoorourketx16","betoorourketx16"
+"O000171",NA,"Tom O'Halleran","M","rep","Democrat","repohalleran","repohalleran",NA
+"P000034","00887","Frank Pallone, Jr.","M","rep","Democrat","FrankPallone","repfrankpallone","repfrankpallone"
+"P000096","01510","Bill Pascrell, Jr.","M","rep","Democrat","BillPascrell","pascrell","RepPascrell"
+"P000197","00905","Nancy Pelosi","F","rep","Democrat","NancyPelosi","NancyPelosi","nancypelosi"
+"P000258","00910","Collin C. Peterson","M","rep","Democrat",NA,NA,NA
+"P000449","00924","Rob Portman","M","sen","Republican","SenRobPortman","senrobportman","SenRobPortman"
+"P000523","00930","David E. Price","M","rep","Democrat","RepDavidEPrice","RepDavidEPrice","RepDavidPrice"
+"P000588","01738","Stevan Pearce","M","rep","Republican","RepStevePearce","RepStevePearce","NMStevePearce"
+"P000592","01802","Ted Poe","M","rep","Republican","JudgeTedPoe","106631626049851","CongressmanTedPoe"
+"P000593","01835","Ed Perlmutter","M","rep","Democrat","RepPerlmutter","RepPerlmutter","RepPerlmutter"
+"P000594","01930","Erik Paulsen","M","rep","Republican","RepErikPaulsen","CongressmanErikPaulsen","reperikpaulsen"
+"P000595","01929","Gary C. Peters","M","sen","Democrat","SenGaryPeters","SenGaryPeters","RepGaryPeters"
+"P000597","01927","Chellie Pingree","F","rep","Democrat","ChelliePingree","ChelliePingree","congresswomanpingree"
+"P000598","01910","Jared Polis","M","rep","Democrat","RepJaredPolis","jaredpolis","JaredPolis31275"
+"P000599","01915","Bill Posey","M","rep","Republican","CongBillPosey","bill.posey15","CongressmanPosey"
+"P000601","02035","Steven M. Palazzo","M","rep","Republican","CongPalazzo","stevenpalazzo","CongressmanPalazzo"
+"P000603","02082","Rand Paul","M","sen","Republican",NA,"SenatorRandPaul","SenatorRandPaul"
+"P000604","02097","Donald M. Payne, Jr.","M","rep","Democrat","RepDonaldPayne","DonaldPayneJr",NA
+"P000605","02157","Scott Perry","M","rep","Republican","RepScottPerry","repscottperry","RepScottPerry"
+"P000606","02141","Robert Pittenger","M","rep","Republican","RepPittenger","congressmanpittenger","CongressmanPittenger"
+"P000607","02171","Mark Pocan","M","rep","Democrat","RepMarkPocan","repmarkpocan","repmarkpocan"
+"P000608","02113","Scott H. Peters","M","rep","Democrat","RepScottPeters","RepScottPeters",NA
+"P000609","02221","Gary J. Palmer","M","rep","Republican","USRepGaryPalmer","CongressmanGaryPalmer",NA
+"P000610","02274","Stacey E. Plaskett","F","rep","Democrat","staceyplaskett","repstaceyplaskett",NA
+"P000611","02247","Bruce Poliquin","M","rep","Republican","RepPoliquin","RepPoliquin",NA
+"P000612","02286","David Perdue","M","sen","Republican","sendavidperdue","SenatorDavidPerdue",NA
+"P000613",NA,"Jimmy Panetta","M","rep","Democrat","RepJimmyPanetta","RepJimmyPanetta",NA
+"Q000023","01967","Mike Quigley","M","rep","Democrat","RepMikeQuigley","repmikequigley","RepMikeQuigley"
+"R000122","00949","Jack Reed","M","sen","Democrat","SenJackReed","SenJackReed","SenatorReed"
+"R000307","00968","Pat Roberts","M","sen","Republican","SenPatRoberts","SenPatRoberts","SenPatRoberts"
+"R000395","00977","Harold Rogers","M","rep","Republican","RepHalRogers","CongressmanHalRogers","RepHalRogers"
+"R000409","00979","Dana Rohrabacher","M","rep","Republican","reprohrabacher","RepRohrabacher","RepDanaRohrabacher"
+"R000435","00985","Ileana Ros-Lehtinen","F","rep","Republican","RosLehtinen","iroslehtinen","IleanaRosLehtinen"
+"R000486","00997","Lucille Roybal-Allard","F","rep","Democrat","RepRoybalAllard","RepRoybalAllard","RepRoybalAllard"
+"R000487","00998","Edward R. Royce","M","rep","Republican","RepEdRoyce","EdRoyce","RepEdRoyce"
+"R000515","01003","Bobby L. Rush","M","rep","Democrat","RepBobbyRush","congressmanbobbyrush","CongressmanRush"
+"R000570","01560","Paul D. Ryan","M","rep","Republican","SpeakerRyan","speakerryan","reppaulryan"
+"R000575","01704","Mike Rogers","M","rep","Republican","RepMikeRogersAL","CongressmanMikeDRogers","MikeRogersAL03"
+"R000576","01728","C. A. Dutch Ruppersberger","M","rep","Democrat","Call_Me_Dutch","DutchRupp","ruppersberger"
+"R000577","01756","Tim Ryan","M","rep","Democrat","RepTimRyan","timryan","timryanvision"
+"R000578","01810","David G. Reichert","M","rep","Republican","DaveReichert","repdavereichert","repdavereichert"
+"R000580","01848","Peter J. Roskam","M","rep","Republican","PeterRoskam","PeterRoskam","RoskamIL06"
+"R000582","01954","David P. Roe","M","rep","Republican","DrPhilRoe","DrPhilRoe","drphilroe"
+"R000583","01916","Thomas J. Rooney","M","rep","Republican","TomRooney","reptomrooney","CongressmanRooney"
+"R000584","01896","James E. Risch","M","sen","Republican","SenatorRisch",NA,"SenatorJamesRisch"
+"R000585","01982","Tom Reed","M","rep","Republican","RepTomReed","RepTomReed","CongressmanTomReed"
+"R000586","02048","James B. Renacci","M","rep","Republican","RepJimRenacci","repjimrenacci","repjimrenacci"
+"R000588","02023","Cedric L. Richmond","M","rep","Democrat","RepRichmond","RepRichmond","RepCedricRichmond"
+"R000591","01986","Martha Roby","F","rep","Republican","RepMarthaRoby","Representative.Martha.Roby","reproby"
+"R000592","02017","Todd Rokita","M","rep","Republican","ToddRokita","RepToddRokita","reptoddrokita"
+"R000593","02003","Dennis A. Ross","M","rep","Republican","RepDennisRoss","dennis.ross.376","RepDennisRoss"
+"R000595","02084","Marco Rubio","M","sen","Republican","SenRubioPress","SenatorMarcoRubio","SenatorMarcoRubio"
+"R000597","02160","Tom Rice","M","rep","Republican","RepTomRice","reptomrice","RepTomRice"
+"R000598","02158","Keith J. Rothfus","M","rep","Republican","KeithRothfus","keithrothfus","reprothfus"
+"R000599","02109","Raul Ruiz","M","rep","Democrat","CongressmanRuiz","CongressmanRaulRuizMD","repraulruiz"
+"R000600","02222","Aumua Amata Coleman Radewagen","F","rep","Republican","RepAmata","aumuaamata",NA
+"R000601","02268","John Ratcliffe","M","rep","Republican","RepRatcliffe","RepRatcliffe",NA
+"R000602","02262","Kathleen M. Rice","F","rep","Democrat","RepKathleenRice","RepKathleenRice",NA
+"R000603","02256","David Rouzer","M","rep","Republican","RepDavidRouzer","RepRouzer",NA
+"R000604","02265","Steve Russell","M","rep","Republican","RepRussell","reprussell",NA
+"R000605","02288","Mike Rounds","M","sen","Republican","SenatorRounds","SenatorMikeRounds",NA
+"R000606",NA,"Jamie Raskin","M","rep","Democrat","repraskin","repraskin",NA
+"R000607",NA,"Francis Rooney","M","rep","Republican","RepRooney","RepRooney",NA
+"R000608",NA,"Jacky Rosen","F","rep","Democrat","repjackyrosen","RepJackyRosen",NA
+"R000609",NA,"John H. Rutherford","M","rep","Republican","RepRutherfordFL","RepRutherfordFL",NA
+"S000033","01010","Bernard Sanders","M","sen","Independent","SenSanders","senatorsanders","senatorsanders"
+"S000051","01012","Mark Sanford","M","rep","Republican","RepSanfordSC","RepSanfordSC","RepSanfordSC"
+"S000148","01036","Charles E. Schumer","M","sen","Democrat","SenSchumer","senschumer","SenatorSchumer"
+"S000185","01037","Robert C. ""Bobby"" Scott","M","rep","Democrat","BobbyScott","RepBobbyScott","repbobbyscott"
+"S000244","01041","F. James Sensenbrenner, Jr.","M","rep","Republican","JimPressOffice","RepSensenbrenner","RepSensenbrenner"
+"S000248","01042","José E. Serrano","M","rep","Democrat","RepJoseSerrano","RepJoseSerrano",NA
+"S000250","01525","Pete Sessions","M","rep","Republican","PeteSessions","petesessions","PeteSessions"
+"S000320","01049","Richard C. Shelby","M","sen","Republican","SenShelby","RichardShelby","SenatorRichardShelby"
+"S000344","01526","Brad Sherman","M","rep","Democrat","BradSherman","63158229861","shermanca27"
+"S000364","01527","John Shimkus","M","rep","Republican","RepShimkus","repshimkus","repshimkus"
+"S000480","01069","Louise McIntosh Slaughter","F","rep","Democrat","LouiseSlaughter","RepLouiseSlaughter","louiseslaughter"
+"S000510","01528","Adam Smith","M","rep","Democrat","RepAdamSmith","RepAdamSmith","CongressmanAdamSmith"
+"S000522","01071","Christopher H. Smith","M","rep","Republican","RepChrisSmith","RepChrisSmith","USRepChrisSmith"
+"S000583","01075","Lamar Smith","M","rep","Republican","LamarSmithTX21","LamarSmithTX21","lamarsmithtexas21"
+"S000770","01531","Debbie Stabenow","F","sen","Democrat","SenStabenow",NA,"senatorstabenow"
+"S001145","01588","Janice D. Schakowsky","F","rep","Democrat","JanSchakowsky","janschakowsky","repschakowsky"
+"S001148","01590","Michael K. Simpson","M","rep","Republican","CongMikeSimpson","96007744606","CongMikeSimpson"
+"S001150","01635","Adam B. Schiff","M","rep","Democrat","RepAdamSchiff","RepAdamSchiff","adamschiff"
+"S001154","01681","Bill Shuster","M","rep","Republican","RepBillShuster","Rep.Shuster","repshuster"
+"S001156","01757","Linda T. Sánchez","F","rep","Democrat","RepLindaSanchez","CongresswomanLindaSanchez","LindaTSanchez"
+"S001157","01722","David Scott","M","rep","Democrat","RepDavidScott","113303673339","RepDavidScott"
+"S001165","01818","Albio Sires","M","rep","Democrat","RepSires","81058818750","RepSiresNJ13"
+"S001168","01854","John P. Sarbanes","M","rep","Democrat","RepSarbanes","RepSarbanes",NA
+"S001170","01861","Carol Shea-Porter","F","rep","Democrat","repsheaporter","repsheaporter",NA
+"S001172","01860","Adrian Smith","M","rep","Republican","RepAdrianSmith",NA,"RepAdrianSmith"
+"S001175","01890","Jackie Speier","F","rep","Democrat","RepSpeier","JackieSpeier","jackiespeierca12"
+"S001176","01892","Steve Scalise","M","rep","Republican","SteveScalise","RepSteveScalise","RepSteveScalise"
+"S001177","01962","Gregorio Kilili Camacho Sablan","M","rep","Democrat",NA,"153423912663","CongressmanSablan"
+"S001180","01950","Kurt Schrader","M","rep","Democrat","RepSchrader","repschrader","repkurtschrader"
+"S001181","01901","Jeanne Shaheen","F","sen","Democrat","SenatorShaheen","SenatorShaheen","senatorshaheen"
+"S001183","01994","David Schweikert","M","rep","Republican","RepDavid","repdavidschweikert","RepDavidSchweikert"
+"S001184","02056","Tim Scott","M","sen","Republican","SenatorTimScott","SenatorTimScott","SenatorTimScott"
+"S001185","01988","Terri A. Sewell","F","rep","Democrat","RepTerriSewell","RepSewell","RepSewell"
+"S001187","02047","Steve Stivers","M","rep","Republican","RepSteveStivers","116058275133542","RepSteveStivers"
+"S001189","02009","Austin Scott","M","rep","Republican","AustinScottGA08","RepAustinScott","RepAustinScott"
+"S001190","02124","Bradley Scott Schneider","M","rep","Democrat","repschneider","CongressmanBradSchneider","RepBradSchneider"
+"S001191","02099","Kyrsten Sinema","F","rep","Democrat","RepSinema","CongresswomanSinema","repsinema"
+"S001192","02168","Chris Stewart","M","rep","Republican","RepChrisStewart","RepChrisStewart","repchrisstewart"
+"S001193","02104","Eric Swalwell","M","rep","Democrat","RepSwalwell","CongressmanEricSwalwell","ericswalwell"
+"S001194","02173","Brian Schatz","M","sen","Democrat","SenBrianSchatz","SenBrianSchatz","senbrianschatz"
+"S001195","02191","Jason Smith","M","rep","Republican","RepJasonSmith","repjasonsmith","RepJasonSmith"
+"S001196","02263","Elise M. Stefanik","F","rep","Republican","RepStefanik","RepEliseStefanik",NA
+"S001197","02289","Ben Sasse","M","sen","Republican","SenSasse","SenatorSasse",NA
+"S001198","02290","Dan Sullivan","M","sen","Republican","SenDanSullivan","SenDanSullivan",NA
+"S001199",NA,"Lloyd Smucker","M","rep","Republican","RepSmucker",NA,NA
+"S001200",NA,"Darren Soto","M","rep","Democrat","RepDarrenSoto","CongressmanDarrenSoto","repdarrensoto"
+"S001201",NA,"Thomas R. Suozzi","M","rep","Democrat","RepTomSuozzi","RepTomSuozzi",NA
+"S001202",NA,"Luther Strange","M","sen","Republican","SenatorStrange",NA,NA
+"T000193","01151","Bennie G. Thompson","M","rep","Democrat","BennieGThompson","CongressmanBennieGThompson","RepBennieThompson"
+"T000238","01155","Mac Thornberry","M","rep","Republican","MacTXPress","repmacthornberry","RepMacThornberry"
+"T000250","01534","John Thune","M","sen","Republican","SenJohnThune",NA,"johnthune"
+"T000460","01593","Mike Thompson","M","rep","Democrat","RepThompson","RepMikeThompson","CongressmanMThompson"
+"T000461","02085","Patrick J. Toomey","M","sen","Republican","SenToomey","senatortoomey","sentoomey"
+"T000462","01664","Patrick J. Tiberi","M","rep","Republican","pattiberi","RepPatTiberi","PatTiberi"
+"T000463","01741","Michael R. Turner","M","rep","Republican","RepMikeTurner","RepMikeTurner","CongressmanTurner"
+"T000464","01829","Jon Tester","M","sen","Democrat","SenatorTester","senatortester","senatorjontester"
+"T000465","01884","Niki Tsongas","F","rep","Democrat","NikiInTheHouse","RepTsongas","RepTsongas"
+"T000467","01952","Glenn Thompson","M","rep","Republican","CongressmanGT","CongressmanGT","CongressmanGT"
+"T000468","01940","Dina Titus","F","rep","Democrat","RepDinaTitus","CongresswomanTitus","CongresswomanTitus"
+"T000469","01942","Paul Tonko","M","rep","Democrat","RepPaulTonko","reppaultonko","reppaultonko"
+"T000470","01997","Scott R. Tipton","M","rep","Republican","RepTipton","CongressmanScottTipton","RepScottTipton"
+"T000472","02110","Mark Takano","M","rep","Democrat","RepMarkTakano","RepMarkTakano","RepMarkTakano"
+"T000474","02231","Norma J. Torres","F","rep","Democrat","NormaJTorres","RepNormaTorres",NA
+"T000475","02250","David A. Trott","M","rep","Republican","repdavetrott","RepDaveTrott",NA
+"T000476","02291","Thom Tillis","M","sen","Republican","senthomtillis","SenatorThomTillis",NA
+"T000477",NA,"Scott Taylor","M","rep","Republican","RepScottTaylor",NA,NA
+"T000478",NA,"Claudia Tenney","F","rep","Republican","RepTenney","RepClaudiaTenney",NA
+"U000031","01177","Fred Upton","M","rep","Republican","RepFredUpton","RepFredUpton","RepFredUpton"
+"U000039","01567","Tom Udall","M","sen","Democrat","SenatorTomUdall","senatortomudall","senatortomudall"
+"V000081","01184","Nydia M. Velázquez","F","rep","Democrat","NydiaVelazquez","8037068318","nydiavelazquez"
+"V000108","01188","Peter J. Visclosky","M","rep","Democrat","RepVisclosky","repvisclosky","PeteVisclosky1"
+"V000128","01729","Chris Van Hollen","M","sen","Democrat","ChrisVanHollen","chrisvanhollen","RepChrisVanHollen"
+"V000129","02105","David G. Valadao","M","rep","Republican","RepDavidValadao","CongressmanDavidValadao","congressmanvaladao"
+"V000130","02112","Juan Vargas","M","rep","Democrat","RepJuanVargas","RepJuanVargas","RepJuanVargas"
+"V000131","02166","Marc A. Veasey","M","rep","Democrat","RepVeasey","CongressmanMarcVeasey","marcveasey"
+"V000132","02167","Filemon Vela","M","rep","Democrat","RepFilemonVela","USCongressmanFilemonVela","RepFilemonVela"
+"W000187","01205","Maxine Waters","F","rep","Democrat","MaxineWaters","MaxineWaters","MaxineWaters"
+"W000437","01226","Roger F. Wicker","M","sen","Republican","SenatorWicker","SenatorWicker","SenatorWicker"
+"W000779","01247","Ron Wyden","M","sen","Democrat","RonWyden",NA,"senronwyden"
+"W000791","01596","Greg Walden","M","rep","Republican","RepGregWalden","repgregwalden","RepGregWalden"
+"W000795","01688","Joe Wilson","M","rep","Republican","RepJoeWilson","JoeWilson","RepJoeWilson"
+"W000797","01777","Debbie Wasserman Schultz","F","rep","Democrat","RepDWStweets","RepDWS","RepWassermanSchultz"
+"W000798","01855","Tim Walberg","M","rep","Republican","RepWalberg","RepWalberg","RepWalberg"
+"W000799","01856","Timothy J. Walz","M","rep","Democrat","RepTimWalz",NA,"1529tjw"
+"W000800","01879","Peter Welch","M","rep","Democrat","PeterWelch","PeterWelch","reppeterwelch"
+"W000802","01823","Sheldon Whitehouse","M","sen","Democrat","SenWhitehouse","SenatorWhitehouse","SenatorWhitehouse"
+"W000804","01886","Robert J. Wittman","M","rep","Republican","RobWittman","RepRobWittman","RobWittman"
+"W000805","01897","Mark R. Warner","M","sen","Democrat","MarkWarner","MarkRWarner","SenatorMarkWarner"
+"W000806","02002","Daniel Webster","M","rep","Republican","RepWebster","RepWebster","repdanwebster"
+"W000808","02004","Frederica S. Wilson","F","rep","Democrat","RepWilson","RepWilson","repfredericawilson"
+"W000809","01991","Steve Womack","M","rep","Republican","Rep_SteveWomack","RepSteveWomack","CongressmanWomack"
+"W000810","02008","Rob Woodall","M","rep","Republican","RepRobWoodall","RepRobWoodall","RobWoodallGA07"
+"W000812","02137","Ann Wagner","F","rep","Republican","RepAnnWagner","RepAnnWagner",NA
+"W000813","02128","Jackie Walorski","F","rep","Republican","RepWalorski","RepJackieWalorski","repwalorski"
+"W000814","02161","Randy K. Weber, Sr.","M","rep","Republican","TXRandy14","TXRandy14","TXRandy14"
+"W000815","02152","Brad R. Wenstrup","M","rep","Republican","RepBradWenstrup","RepBradWenstrup","repbradwenstrup"
+"W000816","02165","Roger Williams","M","rep","Republican","RepRWilliams","RepRogerWilliams",NA
+"W000817","02182","Elizabeth Warren","F","sen","Democrat","SenWarren","senatorelizabethwarren","senelizabethwarren"
+"W000819","02255","Mark Walker","M","rep","Republican","RepMarkWalker","RepMarkWalker",NA
+"W000820","02232","Mimi Walters","F","rep","Republican","RepMimiWalters","RepMimiWalters",NA
+"W000821","02224","Bruce Westerman","M","rep","Republican","RepWesterman","RepWesterman",NA
+"W000822","02259","Bonnie Watson Coleman","F","rep","Democrat","RepBonnie","RepBonnie",NA
+"Y000033","01256","Don Young","M","rep","Republican","RepDonYoung","RepDonYoung","RepDonYoung"
+"Y000062","01853","John A. Yarmuth","M","rep","Democrat","RepJohnYarmuth","214258646163","RepJohnYarmuth"
+"Y000063","02021","Kevin Yoder","M","rep","Republican","RepKevinYoder","CongressmanKevinYoder","RepYoder"
+"Y000064","02019","Todd Young","M","sen","Republican","SenToddYoung","SenatorToddYoung","RepToddYoung"
+"Y000065","02115","Ted S. Yoho","M","rep","Republican","RepTedYoho","CongressmanTedYoho","RepTedYoho"
+"Y000066","02242","David Young","M","rep","Republican","RepDavidYoung","RepDavidYoung",NA
+"Z000017","02261","Lee M. Zeldin","M","rep","Republican","RepLeeZeldin","RepLeeZeldin",NA

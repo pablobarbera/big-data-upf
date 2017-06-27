@@ -1,0 +1,231 @@
+---
+title: "Application: Testing theories of agenda-setting issue ownership using legislators’ Facebook posts"
+author: Pablo Barbera
+date: June 28, 2017
+output: html_document
+---
+
+The file `data/congress-facebook.rdata` contains a data frame with the Facebook posts of all current Members of Congress, with row corresponding to a different document, after collapsing all the Facebook posts from a single member into only one character string.
+
+We're going to run LDA to explore the different topics that Members of Congress discuss on Facebook, and whether there is variation across different characteristics, such as party and chamber.
+
+You can skip to the end of this script if you want to see how I collected and cleaned the data, but for now let's jump straight to the topic modeling part:
+
+```{r}
+load("data/congress-facebook.rdata")
+nrow(posts)
+str(posts)
+```
+
+Creating the document-feature matrix in quanteda:
+
+```{r}
+library(quanteda)
+fbcorpus <- corpus(posts$text)
+cdfm <- dfm(fbcorpus, remove=stopwords("english"), verbose=TRUE,
+               remove_punct=TRUE, remove_numbers=TRUE)
+cdfm <- dfm_trim(cdfm, min_docfreq = 2, verbose=TRUE)
+
+# we now export to a format that we can run the topic model with
+dtm <- convert(cdfm, to="topicmodels")
+```
+
+And now we can run the topic model
+
+```{r eval=FALSE}
+# estimate LDA with K topics
+library(topicmodels)
+K <- 50
+lda <- LDA(dtm, k = K, method = "Gibbs", 
+                control = list(verbose=25L, seed = 123, burnin = 100, iter = 500))
+
+save(lda, file="backup/lda-output.Rdata")
+```
+
+The code above will take some time, so I already ran it before and put it in the backup folder. Let's start looking at the results...
+
+```{r}
+library(topicmodels)
+load("backup/lda-output.Rdata")
+terms(lda)
+# top 10 words associated to each topic
+trms <- t(terms(lda, k=10))
+# some topics are easy to identify
+trms[6,] # media appearances
+trms[15,] # supreme court nomination
+trms[17,] # repealing obamacare
+trms[18,] # foreign policy
+trms[32,] # budgetary issues?
+trms[33,] # energy policy
+trms[44,] # Trump-Russia investigation
+trms[46,] # town halls
+trms[49,] # legislative terms
+# but many others appear to simply refer to states
+trms[1,]
+trms[2,]
+# so probably we would want to clean the data to get rid of state names
+```
+
+Let's look at how often different Members of Congress mention each topic...
+
+```{r}
+# matrix with topic distributions
+mat <- lda@gamma
+dim(mat)
+mat[1, 1:50]
+# i.e.: Member of Congress 1 is talking 16.9% of the time about Topic 26
+
+# who is the Member of Congress that talks more about...
+# immigration?
+posts$name[which.max(mat[,44])] # Trump-Russia
+posts$name[which.max(mat[,17])] # repealing obamacare
+# northwest?
+posts$name[which.max(mat[,1])]
+# supreme court nomination
+posts$name[which.max(mat[,15])]
+
+# looking at differences across parties
+rep.props <- apply(lda@gamma[posts$party=="Republican",], 2, mean)
+dem.props <- apply(lda@gamma[posts$party=="Democrat",], 2, mean)
+ratio <- rep.props / (dem.props + rep.props)
+
+# % of topic usage by party
+ratio[15] # supreme court nomination
+ratio[17] # repealing obamacare
+ratio[18] # foreign policy
+ratio[32] # budgetary issues?
+ratio[33] # energy policy
+ratio[44] # Trump-Russia investigation
+```
+
+
+
+And now, here's how I collected and cleaned the data.
+
+First of all, let's scrape the dataset with the social media accounts of Members of Congress.
+
+```{r eval=FALSE}
+scrapeCongressData <- function(){
+  ## Downloading Congress data
+  txt <- httr::content(httr::GET(paste0("https://raw.githubusercontent.com/unitedstates/",
+                            "congress-legislators/master/legislators-current.yaml")), 'text')
+  congress <- yaml::yaml.load(txt)
+  congress <- data.frame(
+    id = unlistCongress(congress, c('id', 'thomas')),
+    bioid = unlistCongress(congress, c('id', 'bioguide')),
+    name = unlistCongress(congress, c('name', 'official_full')),
+    gender = unlistCongress(congress, c('bio', 'gender')),
+    type = unlist(lapply(congress, function(x)
+      x$terms[[length(x$terms)]]$type)),
+    party = unlist(lapply(congress, function(x)
+      x$terms[[length(x$terms)]]$party)),
+    stringsAsFactors=F)
+  ## Downloading List of Social Media Accounts
+  txt <- httr::content(httr::GET(paste0("https://raw.githubusercontent.com/unitedstates/",
+                            "congress-legislators/master/legislators-social-media.yaml")), 'text')
+  sm <- yaml::yaml.load(txt)
+  sm <- data.frame(
+    bioid = unlistCongress(sm, c('id', 'bioguide')),
+    twitter = unlistCongress(sm, c('social', 'twitter')),
+    facebook = unlistCongress(sm, c('social', 'facebook')),
+    youtube = unlistCongress(sm, c('social', 'youtube')),
+    stringsAsFactors=F)
+  ## merging
+  df <- merge(congress, sm, all.x=TRUE)
+  return(df)
+}
+
+
+unlistCongress <- function(lst, field){
+  if (length(field)==1){
+    notnulls <- unlist(lapply(lst, function(x) !is.null(x[[field]])))
+    vect <- rep(NA, length(lst))
+    vect[notnulls] <- unlist(lapply(lst, '[[', field))
+  }
+  if (length(field)==2){
+    notnulls <- unlist(lapply(lst, function(x) !is.null(x[[field[1]]][[field[2]]])))
+    vect <- rep(NA, length(lst))
+    vect[notnulls] <- unlist(lapply(lst, function(x) x[[field[1]]][[field[2]]]))
+  }
+  return(vect)
+}
+
+congress <- scrapeCongressData()
+
+```
+
+And this is a copy of the file I downloaded...
+
+```{r eval=FALSE}
+congress <- read.csv("data/congress-social-media.csv", stringsAsFactors=F)
+```
+
+
+Keeping only members of congress with FB accounts
+
+```{r eval=FALSE}
+table(is.na(congress$facebook))
+congress <- congress[!is.na(congress$facebook),]
+```
+
+Collecting Facebook page data
+
+```{r eval=FALSE}
+library(Rfacebook)
+fb_oauth <- "YOUR_TOKEN_HERE"
+# get yours from: https://developers.facebook.com/tools/explorer/
+
+# list of accounts
+accounts <- congress$facebook
+
+# removing those already downloaded
+accounts.done <- list.files("data/facebook")
+accounts.left <- accounts[tolower(accounts) %in% tolower(gsub(".csv", "", accounts.done)) == FALSE]
+
+# loop over accounts
+for (account in accounts.left){
+    message(account)
+
+    # download page data (with error handling)
+    error <- tryCatch(df <- getPage(account, token=fb_oauth, n=5000, since='2017/01/01',
+                                    reactions=FALSE, api="v2.9"),
+    	error=function(e) e)
+    if (inherits(error, 'error')){ next }
+    
+    ## cleaning text from \n (line breaks)
+    df$message <- gsub("\n", " ", df$message)
+
+    ## save page data csv format
+    write.csv(df, file=paste0("data/facebook/", account, ".csv"),
+        row.names=F)
+}
+
+```
+
+Merging text from Facebook pages into a single data frame where all posts are collapsed into a single string.
+
+```{r eval=FALSE}
+accounts <- sort(gsub(".csv", "", list.files("data/facebook")))
+congress <- read.csv("data/congress-social-media.csv", stringsAsFactors=F)
+congress <- congress[congress$facebook %in% accounts,]
+congress <- congress[order(congress$facebook),]
+
+posts <- data.frame(
+	text = "",
+	account = accounts,
+	name = congress$name,
+	party = congress$party,
+	type = congress$type,
+	gender = congress$gender, stringsAsFactors=F )
+
+for (account in accounts){
+	message(account)
+	d <- read.csv(paste0("data/facebook/", account, ".csv"), 
+		stringsAsFactors=F)
+	posts$text[posts$account==account] <- paste(d$message, collapse=" ")
+}
+
+nrow(posts)
+save(posts, file="data/congress-facebook.rdata")
+```
+
