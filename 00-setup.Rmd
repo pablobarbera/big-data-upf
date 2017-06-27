@@ -55,7 +55,8 @@ If you are running this script in your own computer, you will have to run the ch
 doInstall <- TRUE  # Change to FALSE if you don't want packages installed.
 toInstall <- c("ROAuth", "streamR", "ggplot2", "stringr",
 	"maps", "Rfacebook", "topicmodels", "devtools", "quanteda",
-	"igraph", "rvest", "httr", "yaml", "reshape", "formatR")
+	"igraph", "rvest", "httr", "yaml", "reshape", "formatR", "readtext",
+	"glmnet", "doMC")
 if (doInstall) install.packages(toInstall)
 if (doInstall) devtools::install_github("netdem-usc/netdemR")
 
