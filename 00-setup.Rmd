@@ -3,8 +3,8 @@ title: "RStudio and RMarkdown"
 author: "Pablo Barbera"
 date: "June 26, 2017"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 Welcome to the summer school!
