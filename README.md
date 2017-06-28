@@ -37,13 +37,13 @@ The first session will begin with a discussion of the definition of "Big Data" a
 
 [Slides: Scraping the web (.pdf)](slides/02-scraping.pdf)
 
-[Code: Introduction to RMarkdown and setup (.html)](code/00-setup.html)
+[Code: Introduction to RMarkdown and setup (.html)](html/00-setup.html)
 
-[Code: Scraping tables (.html)](code/01a-scraping-tables.html)
+[Code: Scraping tables (.html)](html/01a-scraping-tables.html)
 
-[Code: Scraping unstructured data (.html)](code/01b-scraping-unstructured-data.html)
+[Code: Scraping unstructured data (.html)](html/01b-scraping-unstructured-data.html)
 
-[Code: Web APIs (.html)](code/01c-apis.html)
+[Code: Web APIs (.html)](html/01c-apis.html)
 
 ## Day 2
 
@@ -53,19 +53,19 @@ Social network analysis applied to social media data will be the main theme of t
 
 [Slides: Collecting Twitter data (.pdf)](slides/04-twitter.pdf)
 
-[Code: Introduction to network analysis and visualization (.html)](02a-networks-intro-visualization.html)
+[Code: Introduction to network analysis and visualization (.html)](html/02a-networks-intro-visualization.html)
 
-[Code: Descriptive analysis of networks (.html)](02b-networks-descriptive-analysis.html)
+[Code: Descriptive analysis of networks (.html)](html/02b-networks-descriptive-analysis.html)
 
-[Exercise: Analysis of a protest network (.html)](02c-analysis-protest-network.html)
+[Exercise: Analysis of a protest network (.html)](html/02c-analysis-protest-network.html)
 
-[Solutions: Analysis of a protest network (.html)](02c-analysis-protest-network-solutions.html)
+[Solutions: Analysis of a protest network (.html)](html/02c-analysis-protest-network-solutions.html)
 
-[Code: Collecting Twitter data from the Streaming API (.html)](02d-twitter-streaming-data-collection.html)
+[Code: Collecting Twitter data from the Streaming API (.html)](html/02d-twitter-streaming-data-collection.html)
 
-[Code: Collecting Twitter data from the REST API (.html)](02e-twitter-REST-data-collection.html)
+[Code: Collecting Twitter data from the REST API (.html)](html/02e-twitter-REST-data-collection.html)
 
-[Code: Analyzing polarization in Twitter networks (.html)](02f-polarization-networks.html)
+[Code: Analyzing polarization in Twitter networks (.html)](html/02f-polarization-networks.html)
 
 ## Day 3
 
@@ -75,21 +75,21 @@ The last session of the course will focus on automated text analysis. I will int
 
 [Slides: Facebook data and topic models (.pdf)](slides/06-facebook-topic-models.pdf)
 
-[Code: Introduction to text analysis (.html)](03a-text-intro.html)
+[Code: Introduction to text analysis (.html)](html/03a-text-intro.html)
 
-[Code: Dictionary methods (.html)](03b-dictionary-methods.html)
+[Code: Dictionary methods (.html)](html/03b-dictionary-methods.html)
 
-[Code: Supervised learning (.html)](03c-supervised-learning.html)
+[Code: Supervised learning (.html)](html/03c-supervised-learning.html)
 
-[Exercise: Supervised learning (.html)](03d-supervised-learning-exercise.html)
+[Exercise: Supervised learning (.html)](html/03d-supervised-learning-exercise.html)
 
-[Solutions: Supervised learning (.html)](03d-supervised-learning-exercise-solutions.html)
+[Solutions: Supervised learning (.html)](html/03d-supervised-learning-exercise-solutions.html)
 
-[Code: Collecting Facebook data (.html)](03e-facebook-data-collection.html)
+[Code: Collecting Facebook data (.html)](html/03e-facebook-data-collection.html)
 
-[Code: Unsupervised learning, topic models (.html)](03f-unsupervised-learning.html)
+[Code: Unsupervised learning, topic models (.html)](html/03f-unsupervised-learning.html)
 
-[Code: Measuring issue ownership in Facebook posts using topic models (.html)](03g-issue-ownership.html)
+[Code: Measuring issue ownership in Facebook posts using topic models (.html)](html/03g-issue-ownership.html)
 
 
 
