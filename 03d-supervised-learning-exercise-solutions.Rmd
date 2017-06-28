@@ -40,6 +40,13 @@ twdfm <- dfm(twcorpus, remove_punct=TRUE, remove_numbers=TRUE, remove=c(
   stopwords("english"), "t.co", "https", "rt", "amp", "http", "t.c", "can"))
 #twdfm <- dfm_trim(twdfm, min_docfreq = 2)
 textplot_wordcloud(twdfm, rot.per=0, scale=c(3.5, .75), max.words=100)
+
+# adding time of day as features
+tweets$datetime[1]
+substr(tweets$datetime[1], 12, 13)
+tweets$hour <- substr(tweets$datetime, 12, 13)
+newdfm <- dfm(corpus(tweets$hour), verbose=TRUE)
+twdfm <- cbind(twdfm, newdfm)
 ```
 
 Now run the classifier. Then, compute the accuracy.
@@ -84,6 +91,15 @@ best.lambda <- which(ridge$lambda==ridge$lambda.min)
 beta <- ridge$glmnet.fit$beta[,best.lambda]
 head(beta)
 
+# looking at times of day
+times <- tail(beta, n=24)
+df <- data.frame(coef = as.numeric(times),
+				time = as.numeric(names(times)), stringsAsFactors=F)
+df$time <- df$time - 4
+df <- df[order(df$time),]
+plot(df$time, df$coef)
+lines(df$time, df$coef)
+
 ## identifying predictive features
 df <- data.frame(coef = as.numeric(beta),
 				word = names(beta), stringsAsFactors=F)
@@ -94,6 +110,7 @@ paste(df$word[1:30], collapse=", ")
 df <- df[order(df$coef, decreasing=TRUE),]
 head(df[,c("coef", "word")], n=30)
 paste(df$word[1:30], collapse=", ")
+
 ```
 
 Trying a different classifier: Gradient Boosting of Decision Trees
