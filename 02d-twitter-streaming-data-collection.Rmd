@@ -63,7 +63,6 @@ Note the options:
 Once it has finished, we can open it in R as a data frame with the `parseTweets` function
 ```{r}
 tweets <- parseTweets("trump-tweets.json")
-str(tweets)
 tweets[1,]
 ```
 
@@ -148,6 +147,7 @@ edges <- data.frame(
   stringsAsFactors=F
 )
 
+library(igraph)
 g <- graph_from_data_frame(d=edges, directed=TRUE)
 
 ```

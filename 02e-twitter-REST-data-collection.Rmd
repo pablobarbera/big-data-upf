@@ -17,7 +17,7 @@ library(streamR)
 
 searchTweets(q=c("graham", "mccain"), 
   filename="senator-tweets.json",
-  n=1000, until="2017-06-20", 
+  n=1000, until="2017-06-25", 
   oauth_folder="credentials")
 
 tweets <- parseTweets("senator-tweets.json")

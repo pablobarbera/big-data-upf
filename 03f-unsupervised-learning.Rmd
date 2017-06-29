@@ -112,7 +112,7 @@ plot(agg$year, agg$x, type="l", xlab="Year", ylab="Avg. prob. of article about t
 
 This is the code to generate the figure in the slides. Many moving parts here...
 
-```{r eval=FALSE}
+```{r}
 # install.packages("cvTools")
 require(cvTools)
 cvLDA <- function(Ntopics,dtm,K=10) {
@@ -134,7 +134,7 @@ cvLDA <- function(Ntopics,dtm,K=10) {
 }
 ```
 
-```{r eval=FALSE}
+```{r}
 K <- c(20, 30, 40, 50, 60, 70, 80)
 
 results <- list()
@@ -149,7 +149,7 @@ for (k in K){
 ```
 
 
-```{r eval=FALSE}
+```{r}
 ## plot
 df <- data.frame(
     k = rep(K, each=10),
